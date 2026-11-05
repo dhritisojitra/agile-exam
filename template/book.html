@@ -1,8 +1,4 @@
-<html>
-    <head>
-        <title>Book appointment</title>
-    </head>
-</html>
+{{% book.html extends base.html %}}
 
 <h2>Book appointment</h2>
 <form method="post">
@@ -10,3 +6,4 @@
   <p><label>Date<br><input type="text" name="author" value="{{ author }}" required></label></p>
   <button type="submit">Book appointment</button>
 </form>
+
